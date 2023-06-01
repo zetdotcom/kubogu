@@ -1,52 +1,102 @@
 ---
-import Layout from '../components/Layout.astro';
+import Layout from "../components/Layout.astro";
 ---
 
 <Layout title="Astro Quickstart">
-	<main>
-    <svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>
+  <main>
+    <svg
+      id="background"
+      width="1728"
+      height="1235"
+      viewBox="0 0 1728 1235"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      ><g opacity="0.75" filter="url(#filter0_f_39_143)"
+        ><circle cy="1000" r="264" fill="url(#paint0_linear_39_143)"
+        ></circle></g
+      ><g opacity="0.65" filter="url(#filter1_f_39_143)"
+        ><circle cx="1720" cy="264" r="379" fill="url(#paint1_linear_39_143)"
+        ></circle></g
+      ><defs
+        ><filter
+          id="filter0_f_39_143"
+          x="-485"
+          y="515"
+          width="970"
+          height="970"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+          ><feFlood flood-opacity="0" result="BackgroundImageFix"
+          ></feFlood><feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"></feBlend><feGaussianBlur
+            stdDeviation="110.5"
+            result="effect1_foregroundBlur_39_143"></feGaussianBlur></filter
+        ><filter
+          id="filter1_f_39_143"
+          x="1120"
+          y="-336"
+          width="1200"
+          height="1200"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+          ><feFlood flood-opacity="0" result="BackgroundImageFix"
+          ></feFlood><feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"></feBlend><feGaussianBlur
+            stdDeviation="110.5"
+            result="effect1_foregroundBlur_39_143"></feGaussianBlur></filter
+        ><linearGradient
+          id="paint0_linear_39_143"
+          x1="196.5"
+          y1="902"
+          x2="-2.55853e-05"
+          y2="1264"
+          gradientUnits="userSpaceOnUse"
+          ><stop stop-color="var(--bttm-left-blur-1)"></stop><stop
+            offset="1"
+            stop-color="var(--bttm-left-blur-2)"></stop></linearGradient
+        ><linearGradient
+          id="paint1_linear_39_143"
+          x1="1720"
+          y1="-115"
+          x2="1720"
+          y2="643"
+          gradientUnits="userSpaceOnUse"
+          ><stop stop-color="var(--top-right-blur-1)"></stop><stop
+            offset="1"
+            stop-color="var(--top-right-blur-2)"></stop></linearGradient
+        ></defs
+      ></svg
+    >
     <div id="content">
       <div class="header">
         <h1>Ku Bogu</h1>
         <p>Podejmujemu ascezy po to aby zlizać się do Boga</p>
         <p>i w jakiejś naszej intencji</p>
-
       </div>
-			<div class="resource-list">
+      <div class="resource-list">
         <!-- <h2>Podczasz ćwiczenia powstrzymujemy się od:</h2> -->
         <ul>
+          <li>Nie używamy telefonu/komputera do niepotrzebnych rzeczy</li>
+          <li>Nie oglądamy telewizji itp.</li>
+          <li>Nie jemy słodyczy i nie pijemy słodkich napojów</li>
+          <li>Nie pijemy alkoholu</li>
+          <li>Codziennie minimum 15 minut ćwiczeń</li>
+          <li>Krótki, zimny prysznic.</li>
           <li>
-            Nie uzywamy telefonu/ kompa do rzeczy niepotrzebnych
-					</li>
-          <li>
-            Nie oglądamy tv etc.
-					</li>
-          <li>
-            Nie jemu slodyczy i nie pijemu slodkich napojów
-					</li>
-          <li>
-            Nie pijemy alko
-					</li>
-          <li>
-            Codziennie przynajmniej 15 min ćwiczeń
+            Codziennie minimum 30 minut na osobiste spotkanie z
+            Bogiem/medytację
           </li>
-          <li>
-            Krótki zimny prysznic
-					</li>
-          <li>
-            Codziennie przynajmniej 30 min na osobiste spotkanie z Bogiem/ medytacja
-					</li>
-          <li>
-            Codzienny kontakt z kotwicą
-					</li>
-          <li>
-            Cotygodniowe spotkania nas wszystkich na zywo
-					</li>
-          <li>
-            Wieczorny rachunek sumienia
-					</li>
+          <li>Codzienny kontakt z kotwicą</li>
+          <li>Cotygodniowe spotkania nas wszystkich osobiście</li>
+          <li>Wieczorny rachunek sumienia</li>
         </ul>
       </div>
     </div>
-	</main>
+  </main>
 </Layout>
